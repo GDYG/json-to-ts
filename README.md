@@ -54,7 +54,7 @@ If you have any suggestions, bug reports, or contributions, feel free to open an
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/GDYG/json-to-ts/tree/main?tab=MIT-1-ov-file#readme) file for details.
 
 ## Credits
 
