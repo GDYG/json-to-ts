@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "json2ts" extension will be documented in this file.
+- Add support for converting JSON arrays to TypeScript interfaces.
+- Convert JSON from clipboard to TypeScript interfaces.
+- Customizable root interface name.
+- Accessible via command palette, context menu, and keyboard shortcuts.
+- No additional configuration required.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Check [Keep a Changelog](https://github.com/GDYG/json-to-ts/releases/new) for recommendations on how to structure this file.
 
 ## [Unreleased]
-
-- Initial release

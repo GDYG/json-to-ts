@@ -1,8 +1,8 @@
 {
-  "name": "json2ts",
+  "name": "json2typescripts",
   "displayName": "JSON to TypeScript",
   "description": "This is an extension for Visual Studio Code that allows you to convert json to ts",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "GDYG",
     "email": "gdyg01@gmail.com"
@@ -12,6 +12,7 @@
     "typescript",
     "json-to-ts",
     "json2ts",
+    "json2typescripts",
     "json to ts",
     "json to typescript",
     "vscode"
@@ -31,17 +32,18 @@
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
+  "icon": "public/assets/images/json2ts.png",
   "contributes": {
     "commands": [
       {
-        "command": "json2ts.convertJsonToTs",
+        "command": "json2typescripts.convertJsonToTs",
         "title": "Convert JSON to TypeScript"
       }
     ],
     "menus": {
       "editor/context": [
         {
-          "command": "json2ts.convertJsonToTs",
+          "command": "json2typescripts.convertJsonToTs",
           "when": "editorTextFocus && !editorReadonly",
           "group": "navigation"
         }
@@ -49,7 +51,7 @@
     },
     "keybindings": [
       {
-        "command": "json2ts.convertJsonToTs",
+        "command": "json2typescripts.convertJsonToTs",
         "key": "ctrl+alt+j",
         "when": "editorTextFocus",
         "mac": "cmd+alt+j"

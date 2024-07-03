@@ -7,7 +7,7 @@ import jsonToTs from "json-to-ts";
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
-    "json2ts.convertJsonToTs",
+    "json2typescripts.convertJsonToTs",
     async () => {
       try {
         // 读取剪切板内容
