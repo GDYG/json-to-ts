@@ -9,3 +9,5 @@
 Check [Keep a Changelog](https://github.com/GDYG/json-to-ts/releases/new) for recommendations on how to structure this file.
 
 ## [Unreleased]
+
+- Convert from selection to TypeScript interfaces. `Ctrl+Alt+Cmd+J`
