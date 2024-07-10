@@ -1,5 +1,6 @@
 # Change Log
 
+- remove comments from clipboard content.
 - Add support for converting JSON arrays to TypeScript interfaces.
 - Convert JSON from clipboard to TypeScript interfaces.
 - Customizable root interface name.

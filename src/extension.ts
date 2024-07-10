@@ -21,7 +21,11 @@ export function activate(context: vscode.ExtensionContext) {
         // 解析JSON
         let jsonObject;
         try {
-          jsonObject = JSON.parse(clipboardContent);
+          const jsonObjectByClipBoardContent = clipboardContent.replace(
+            /\/\/.*/g,
+            ""
+          );
+          jsonObject = JSON.parse(jsonObjectByClipBoardContent);
         } catch (error) {
           vscode.window.showErrorMessage("Invalid JSON in clipboard.");
           return;
